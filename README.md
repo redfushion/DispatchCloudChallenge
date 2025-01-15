@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Dispatch Cloud - Prueba Técnica
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una solución a una prueba técnica solicitada por la empresa **Dispatch Cloud**. Consiste en el desarrollo de un componente de selección múltiple con las siguientes características principales:
 
-## Available Scripts
+- **Selección múltiple** de elementos.
+- **Búsqueda interactiva** con resaltado de coincidencias.
+- Capacidad para **agregar nuevas entradas** si no están presentes en las opciones existentes.
+- Funcionalidad de **"Seleccionar todo"** mediante la combinación de teclas 'ctrl + A'.
+- Interfaz interactiva y estilizada con **TailwindCSS**.
 
-In the project directory, you can run:
+## Tecnologías utilizadas
 
-### `npm start`
+Este proyecto fue desarrollado con las siguientes tecnologías:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **ReactJS**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **TypeScript**: Añadido para un tipado estático y mayor robustez en el código.
+- **TailwindCSS**: Framework de CSS para diseñar interfaces modernas y responsivas.
+- **Vite** *(opcional)*: Puede ser utilizado para una configuración más rápida y ligera del entorno React (alternativa a Create React App).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación y configuración
 
-### `npm test`
+1. Clona este repositorio:
+   git clone <URL-del-repositorio>
+   cd dispatch-cloud-prueba
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instala las dependencias:
+   npm install
 
-### `npm run build`
+3. Ejecuta la aplicación en modo desarrollo:
+   npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Abre tu navegador en 'http://localhost:3000' para ver la aplicación en funcionamiento.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Funcionalidades principales
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Búsqueda interactiva
+- Al escribir en el campo de búsqueda, las opciones visibles se filtran dinámicamente.
+- Las coincidencias del texto buscado se resaltan en amarillo.
 
-### `npm run eject`
+### 2. Agregar nuevas entradas
+- Si no hay opciones coincidentes, se muestra una opción para agregar el texto ingresado como nueva entrada.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Seleccionar todo
+- Presiona 'ctrl + A' para seleccionar todas las opciones visibles en la lista filtrada.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. Eliminar elementos seleccionados
+- Los elementos seleccionados aparecen como etiquetas y se pueden eliminar individualmente haciendo clic en la 'x'.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contacto
+Si tienes preguntas sobre este proyecto o el proceso de desarrollo, no dudes en contactarme:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Email:** mario.alb.22@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/mario-medina-ortiz/
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Nota: Este proyecto fue realizado como parte de una prueba técnica y no representa un producto terminado.*
